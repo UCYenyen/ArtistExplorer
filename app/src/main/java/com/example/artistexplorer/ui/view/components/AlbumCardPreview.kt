@@ -61,7 +61,7 @@ fun AlbumCard(
             ) {
                 Text(
                     text = album.title,
-                    color = Color.White,
+                    color = Color(0xFFAEAC96),
                     fontWeight = FontWeight.Bold,
                     fontSize = 16.sp,
                     maxLines = 1
@@ -69,7 +69,7 @@ fun AlbumCard(
                 Spacer(modifier = Modifier.height(4.dp))
                 Text(
                     text = "${album.year} • ${album.genre}",
-                    color = Color.LightGray,
+                    color = Color(0xFFAEAC96),
                     fontSize = 14.sp,
                     maxLines = 1
                 )

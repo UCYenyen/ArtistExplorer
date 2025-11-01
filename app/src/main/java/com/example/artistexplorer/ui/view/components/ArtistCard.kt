@@ -48,8 +48,8 @@ fun ArtistCard(artistData : ArtistItem) {
             horizontalAlignment = Alignment.Start,
             verticalArrangement = Arrangement.Bottom
         ) {
-            Text(artistData.name, fontSize = 24.sp, fontWeight = FontWeight.Normal, color = Color.White.copy(alpha = 0.8f))
-            Text(artistData.genre ?: "Unknown", fontSize = 16.sp, fontWeight = FontWeight.Normal, color = Color.White.copy(alpha = 0.8f))
+            Text(artistData.name, fontSize = 24.sp, fontWeight = FontWeight.Normal, color = Color(0xFFAEAC96))
+            Text(artistData.genre ?: "Unknown", fontSize = 16.sp, fontWeight = FontWeight.Normal, color = Color(0xFFAEAC96))
         }
     }
 }
