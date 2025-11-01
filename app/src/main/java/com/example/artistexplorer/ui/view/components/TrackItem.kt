@@ -30,7 +30,7 @@ fun TrackItem(
 ) {
     val trackBoxBg = Color(0xFF463E28)
     val trackBoxText = Color(0xFFD8C74B)
-    val titleColor = Color(0xFFE0E0E0)
+    val titleColor = Color(0xFFAEAC96)
     val durationColor = Color(0xFFA0A0A0)
     val dividerColor = Color(0xFF3A3A3A)
 

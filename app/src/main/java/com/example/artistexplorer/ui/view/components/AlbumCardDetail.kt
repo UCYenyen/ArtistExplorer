@@ -58,7 +58,7 @@ fun AlbumCardDetail(
                         text = albumName,
                         style = MaterialTheme.typography.titleLarge,
                         fontWeight = FontWeight.Bold,
-                        color = Color.White
+                        color = Color(0xFFAEAC96)
                     )
 
                     Spacer(modifier = Modifier.height(4.dp))
@@ -66,7 +66,7 @@ fun AlbumCardDetail(
                     Text(
                         text = "$releaseYear • $genre",
                         style = MaterialTheme.typography.bodyMedium,
-                        color = Color.Gray
+                        color = Color(0xFFAEAC96)
                     )
 
                     Spacer(modifier = Modifier.height(12.dp))
@@ -74,7 +74,7 @@ fun AlbumCardDetail(
                     Text(
                         text = description,
                         style = MaterialTheme.typography.bodySmall,
-                        color = Color.White.copy(alpha = 0.8f),
+                        color = Color(0xFFAEAC96),
                         lineHeight = MaterialTheme.typography.bodySmall.lineHeight * 1.5
                     )
                 }
